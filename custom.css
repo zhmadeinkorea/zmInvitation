@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'bungee';
+    src: url('Bungee-Regular.ttf') format('truetype');
+}
+
+
 body {
   background-color: #ff6b6b;
   display: flex;
@@ -14,6 +20,7 @@ body {
 }
 
 .birthday-card {
+
   position: relative;
   z-index:99999999999;
 }
@@ -335,15 +342,16 @@ body {
 }
 
 .text {
-  position: absolute;
-  font-family: tahoma;
-  font-size: 35px;
-  z-index:1;
-  font-weight: bold;
-  width: 380px;
-  text-align: center;
-  top:30px;
-  color: #073b4c;
+   font-family: 'bungee';
+   line-height  : 30px;
+   position: absolute;
+   font-size: 35px;
+   z-index:1;
+   /* font-weight: bold; */
+   width: 380px;
+   text-align: center;
+   top: 20px;
+   color: #073b4c;
 }
 
 footer {
