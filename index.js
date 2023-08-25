@@ -4,11 +4,9 @@ particlesContainer = document.getElementById("particles-js");
  setTimeout(() => {
             particlesContainer.classList.add("show");
         }, 1000);
-   
-}
 
 
-
+ 
 
 /// Particle JS
 
@@ -70,6 +68,9 @@ particlesJS("particles-js", {
    retina_detect: true
 });
 
+
+   
+}
 
 
 
