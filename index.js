@@ -1,7 +1,12 @@
+function init(){
+
 particlesContainer = document.getElementById("particles-js");
  setTimeout(() => {
             particlesContainer.classList.add("show");
         }, 1000);
+   
+}
+
 
 
 
