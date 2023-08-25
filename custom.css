@@ -11,6 +11,16 @@
 }
 
 
+@font-face {
+font-family: 'UhBeeSe_hyun';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+
 body {
   background-color: #ff6b6b;
   display: flex;
@@ -394,7 +404,6 @@ footer h4 {
 
 
 
-
 .message-card{
   display:none;
   color:rgb(247, 178, 103);
@@ -407,4 +416,6 @@ footer h4 {
 }
 .message-content{
  color:white;
+font-family: 'UhBeeSe_hyun';
+}
 }
