@@ -388,12 +388,15 @@ footer h4 {
 
 
 .message-card{
+  display:none;
   color:rgb(247, 178, 103);
    font-family: 'yg-jalnan';
+    text-align:center;
 /*  display:none; */
  }
-
-.message-shadow{
-  position:absolute;
-
+.message-title{
+  font-size:30px;
+}
+.message-content{
+ color:white;
 }

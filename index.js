@@ -6,7 +6,7 @@ particlesContainer = document.getElementById("particles-js");
         }, 1000);
 
 
- 
+
 
 /// Particle JS
 
@@ -69,14 +69,14 @@ particlesJS("particles-js", {
 });
 
 
-   
 }
 
 
 
-$(".birthday-card").on("click", function(e){
-  
-  $(".birthday-card").css('display', 'none');
+
+function showMessage(){
+
+$(".birthday-card").css('display', 'none');
   $('.message-card').css('display', 'block');
-    
-})
+
+}
