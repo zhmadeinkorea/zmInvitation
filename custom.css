@@ -418,4 +418,15 @@ footer h4 {
  color:white;
 font-family: 'UhBeeSe_hyun';
 }
+
+@media(max-width:767px){
+
+  .message-title{
+  font-size:23px;
+}
+
+  .message-content{
+font-size:15px;
+  }
+
 }
