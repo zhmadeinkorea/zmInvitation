@@ -49,31 +49,9 @@ body {
   transform: scale(1.1);
 }
 
-.card:before {
-  content:"";
-  position: absolute;
-  height: 5px;
-  width: 250px;
-  background-color: #fff;
-  border-radius:10px;
-  top:340px;
-  left:65px;
-}
-
 .cake {
   position: relative;
   top:40px;
-}
-
-.card:after {
-  content:"";
-  position: absolute;
-  height: 5px;
-  border-radius: 0 10px 10px 0;
-  width: 122px;
-  background-color: rgba(0,0,0,0.1);
-  top:340px;
-  left:193px;
 }
 
 .cake-bottom {
@@ -353,14 +331,14 @@ body {
 
 .text {
    font-family: 'bungee';
-   line-height  : 30px;
+   line-height: 18px;
    position: absolute;
-   font-size: 35px;
+   font-size: 20px;
    z-index:1;
    /* font-weight: bold; */
    width: 380px;
    text-align: center;
-   top: 20px;
+   top: 157px;
    color: #073b4c;
 }
 
