@@ -78,5 +78,9 @@ function showMessage(){
 
 $(".birthday-card").css('display', 'none');
   $('.message-card').css('display', 'block');
+  $('.container').css('display',  'none');
 
 }
+
+
+
