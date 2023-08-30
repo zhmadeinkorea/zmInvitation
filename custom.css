@@ -457,10 +457,11 @@ li span {
   
   li {
     font-size: calc(1.125rem * var(--smaller));
+    padding: 0.5em;
   }
   
   li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: calc(.375rem * var(--smaller));
   }
 }
 
